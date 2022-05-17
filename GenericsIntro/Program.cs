@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Metotlar;
+using GenericsIntro;
 
 namespace Program
 {
@@ -13,16 +13,8 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            BasketManager basketManager = new BasketManager();
-
-            Product product = new Product();
-            product.ProductName = "İphone";
-
-            basketManager.Add(product);
-
-
-
+          MyList<string> list = new MyList<string>();
+            list.Add("Engin");
         }
     }
 }
