@@ -20,6 +20,9 @@ namespace Program // Note: actual namespace depends on the project name.
             product.ProductName = "İphone";
 
             basketManager.Add(product);
+
+
+
         }
     }
 }
